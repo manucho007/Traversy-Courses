@@ -6,3 +6,12 @@
 - JavaScript Higher Order Functions & Arrays
 - Express JS Session
 - TypeScript Setup With Node & Express
+
+# In Progress
+
+- Node.js API Masterclass With Express & MongoDB
+- React Course
+
+# In Progress (GitIgnored)
+
+- Exploring Docker
