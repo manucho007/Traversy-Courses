@@ -1,2 +1,5 @@
 .vscode/settings.json
-/Exploring Docker
+# dependencies
+
+node_modules/
+# /Exploring Docker
