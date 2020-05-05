@@ -1,0 +1,24 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production  node server.js",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "Node"
+  ],
+  "author": "Manuel Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
