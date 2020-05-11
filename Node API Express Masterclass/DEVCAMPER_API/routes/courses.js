@@ -13,7 +13,7 @@ const advancedResults = require('../middleware/advancedResults');
 const router = express.Router({ mergeParams: true });
 
 // Call of protect middleware
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 // Route gets forwarded from bootcamps routes
 // Usage of advancedResults middleware for getCourses method
@@ -26,10 +26,10 @@ router
     }),
     getCourses
   )
-  .post(protect, addCourse);
+  .post(protect, authorize('publisher', 'admin'), addCourse);
 router
   .route('/:id')
   .get(getCourse)
-  .put(protect, updateCourse)
-  .delete(protect, deleteCourse);
+  .put(protect, authorize('publisher', 'admin'), updateCourse)
+  .delete(protect, authorize('publisher', 'admin'), deleteCourse);
 module.exports = router;
