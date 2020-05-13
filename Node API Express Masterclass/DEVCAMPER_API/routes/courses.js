@@ -7,13 +7,14 @@ const {
   deleteCourse,
 } = require('../controllers/courses');
 const Course = require('../models/Course');
-const advancedResults = require('../middleware/advancedResults');
 
 // Receive the bootcamp from bootcamp router
 const router = express.Router({ mergeParams: true });
 
-// Call of protect middleware
+// Call of protect and authorize middleware
 const { protect, authorize } = require('../middleware/auth');
+// Call of advancedResults middleware
+const advancedResults = require('../middleware/advancedResults');
 
 // Route gets forwarded from bootcamps routes
 // Usage of advancedResults middleware for getCourses method
