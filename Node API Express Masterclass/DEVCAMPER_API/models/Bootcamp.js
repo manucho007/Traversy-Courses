@@ -144,9 +144,18 @@ BootcampSchema.pre('remove', async function (next) {
   next();
 });
 
-// Reverse populate with virtuals
+// Visualization of linked fields of courses and review
+// Populate with virtuals
 BootcampSchema.virtual('courses', {
   ref: 'Course',
+  localField: '_id',
+  foreignField: 'bootcamp',
+  justOne: false,
+});
+
+// Populate with virtuals
+BootcampSchema.virtual('reviews', {
+  ref: 'Review',
   localField: '_id',
   foreignField: 'bootcamp',
   justOne: false,

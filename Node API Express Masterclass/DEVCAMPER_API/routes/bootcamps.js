@@ -31,7 +31,7 @@ router.route('/radius/:zipcode/:distance').get(getBootcampsInRadius);
 // Usage of advancedResults middleware for getBootcamps method
 router
   .route('/')
-  .get(advancedResults(Bootcamp, 'courses'), getBootcamps)
+  .get(advancedResults(Bootcamp, 'courses reviews'), getBootcamps)
   .post(protect, authorize('publisher', 'admin'), createBootcamp);
 router
   .route('/:id')
