@@ -6,6 +6,8 @@
 - JavaScript Higher Order Functions & Arrays
 - Express JS Session
 - TypeScript Setup With Node & Express
+- Flexbox Crash Course
+- CSS Grid Layout With Image Span
 
 # In Progress
 
