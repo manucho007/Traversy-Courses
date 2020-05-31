@@ -8,6 +8,7 @@
 - TypeScript Setup With Node & Express
 - Flexbox Crash Course
 - CSS Grid Layout With Image Span
+- Stack Data Structure
 
 # In Progress
 
