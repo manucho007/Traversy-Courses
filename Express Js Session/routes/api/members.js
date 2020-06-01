@@ -7,9 +7,9 @@ router.get('/', (req, res) => res.json(members));
 
 // Get one member
 router.get('/:id', (req, res) => {
-  const found = members.some(member => member.id === parseInt(req.params.id));
+  const found = members.some((member) => member.id === parseInt(req.params.id));
   if (found) {
-    res.json(members.filter(member => member.id === parseInt(req.params.id)));
+    res.json(members.filter((member) => member.id === parseInt(req.params.id)));
   } else {
     res.status(400).json({ msg: `No member with the id ${req.params.id}` });
   }
@@ -22,22 +22,22 @@ router.post('/', (req, res) => {
     id: uuid.v4(),
     name: req.body.name,
     email: req.body.email,
-    status: 'Active'
+    status: 'Active',
   };
   if (!newMember.name || !newMember.email) {
     return res.status(400).json({ msg: 'Include name and email' });
   }
   members.push(newMember);
-  //   res.json(members);
+  // res.json(members);
   res.redirect('/');
 });
 
 // Update member
 router.put('/:id', (req, res) => {
-  const found = members.some(member => member.id === parseInt(req.params.id));
+  const found = members.some((member) => member.id === parseInt(req.params.id));
   if (found) {
     const updMember = req.body;
-    members.forEach(member => {
+    members.forEach((member) => {
       if (member.id === parseInt(req.params.id)) {
         member.name = updMember.name ? updMember.name : member.name;
         member.email = updMember.email ? updMember.email : member.email;
@@ -52,11 +52,13 @@ router.put('/:id', (req, res) => {
 
 // Delete a member
 router.delete('/:id', (req, res) => {
-  const found = members.some(member => member.id === parseInt(req.params.id));
+  const found = members.some((member) => member.id === parseInt(req.params.id));
   if (found) {
     res.json({
       msg: 'Member deleted',
-      members: members.filter(member => member.id !== parseInt(req.params.id))
+      members: members.filter(
+        (member) => member.id !== parseInt(req.params.id)
+      ),
     });
   } else {
     res.status(400).json({ msg: `No member with the id ${req.params.id}` });
