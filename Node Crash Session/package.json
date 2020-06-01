@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +14,10 @@
   "author": "Manuel Rodriguez",
   "license": "ISC",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
