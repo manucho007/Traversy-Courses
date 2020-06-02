@@ -14,6 +14,8 @@
 
 # In Progress
 
+- Redux Crash Course
+
 # In Progress (GitIgnored)
 
 - Exploring Docker
