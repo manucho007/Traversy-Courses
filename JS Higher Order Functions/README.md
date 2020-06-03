@@ -1,6 +1,6 @@
 # avaScript Higher Order Functions & Arrays
 
-- FIlter
+- Filter
 - Map
 - Reduce
 - Sort
