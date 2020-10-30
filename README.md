@@ -15,6 +15,7 @@
 # In Progress
 
 - Redux Crash Course
+- Intro To JavaScript Unit Testing & BDD
 
 # In Progress (GitIgnored)
 
