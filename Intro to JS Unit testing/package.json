@@ -1,0 +1,17 @@
+{
+  "name": "battle-testing",
+  "version": "1.0.0",
+  "description": "Intro to Unit Testing and BDD",
+  "main": "main_test.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Manuel Rodriguez",
+  "license": "ISC"
+}
