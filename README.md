@@ -1,4 +1,4 @@
-# Sample Courses From Traversy Media
+# Finished
 
 - Javascript Cardio [Session 1, Session 2]
 - Node.js Crash Course
@@ -11,11 +11,11 @@
 - Stack Data Structure
 - Node.js API Masterclass With Express & MongoDB
 - ReactJs Crash Course
+- Intro To JavaScript Unit Testing & BDD
 
 # In Progress
 
 - Redux Crash Course
-- Intro To JavaScript Unit Testing & BDD
 
 # In Progress (GitIgnored)
 

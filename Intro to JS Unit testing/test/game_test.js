@@ -52,7 +52,7 @@ describe('GAME INSTANCE FUNCTIONS', function () {
   function saveGame(callback) {
     setTimeout(function () {
       callback();
-    }, 1000);
+    }, 10);
   }
 
   describe('saveGame', function () {
