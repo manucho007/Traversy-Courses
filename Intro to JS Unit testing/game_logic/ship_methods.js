@@ -20,15 +20,18 @@ function damageShip(ship, coordinates) {
   ship.damage.push(coordinates);
 }
 
-function fire(player, coordinates) {
-  var ship = checkForShip(player, coordinates);
+function fireAtLocation(opposingPlayer, guessedCoordinates) {
+  var ship = checkForShip(opposingPlayer, guessedCoordinates);
   if (ship) {
-    damageShip(ship, coordinates);
+    damageShip(ship, guessedCoordinates);
+    // return true;
+  } else {
+    return false;
   }
 }
 
 module.exports = {
   checkForShip,
   damageShip,
-  fire,
+  fireAtLocation,
 };
