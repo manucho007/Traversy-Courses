@@ -12,10 +12,11 @@
 - Node.js API Masterclass With Express & MongoDB
 - ReactJs Crash Course
 - Intro To JavaScript Unit Testing & BDD
+- Redux Crash Course
 
 # In Progress
 
-- Redux Crash Course
+- 
 
 # In Progress (GitIgnored)
 
