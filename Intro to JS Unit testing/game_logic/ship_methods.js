@@ -27,6 +27,8 @@ function fire(player, coordinates) {
   }
 }
 
-module.exports.checkForShip = checkForShip;
-module.exports.damageShip = damageShip;
-module.exports.fire = fire;
+module.exports = {
+  checkForShip,
+  damageShip,
+  fire,
+};
