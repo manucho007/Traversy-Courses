@@ -13,10 +13,12 @@
 - ReactJs Crash Course
 - Intro To JavaScript Unit Testing & BDD
 - Redux Crash Course
+- Vanilla Node.js REST API | No Framework
 
 # In Progress
 
-- 
+- DevOps Crash Course (Docker, Terraform, and Github Actions)
+
 
 # In Progress (GitIgnored)
 
