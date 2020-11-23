@@ -1,0 +1,31 @@
+{
+    "user": {
+        "0364b163-620b-41ee-ad07-96bb05bc7109": {
+            "id": "0364b163-620b-41ee-ad07-96bb05bc7109",
+            "secret": {
+                "ascii": "VJTv(&FZTa(Qsu4@6ykm%{JXA97B3gn9",
+                "hex": "564a54762826465a546128517375344036796b6d257b4a584139374233676e39",
+                "base32": "KZFFI5RIEZDFUVDBFBIXG5JUIA3HS23NEV5UUWCBHE3UEM3HNY4Q",
+                "otpauth_url": "otpauth://totp/SecretKey?secret=KZFFI5RIEZDFUVDBFBIXG5JUIA3HS23NEV5UUWCBHE3UEM3HNY4Q"
+            }
+        },
+        "22cf60dc-5e8c-4e45-9c25-0110884b63bb": {
+            "id": "22cf60dc-5e8c-4e45-9c25-0110884b63bb",
+            "temp_secret": {
+                "ascii": ".2lDz[/$mHc(F,E9Os3kCSTbr#@55kDR",
+                "hex": "2e326c447a5b2f246d486328462c45394f73336b4353546272234035356b4452",
+                "base32": "FYZGYRD2LMXSI3KIMMUEMLCFHFHXGM3LINJVIYTSENADKNLLIRJA",
+                "otpauth_url": "otpauth://totp/SecretKey?secret=FYZGYRD2LMXSI3KIMMUEMLCFHFHXGM3LINJVIYTSENADKNLLIRJA"
+            }
+        },
+        "712a402b-c233-4816-b4da-70bf21413c64": {
+            "id": "712a402b-c233-4816-b4da-70bf21413c64",
+            "temp_secret": {
+                "ascii": "6mvZ)@*8MvsIfN&(UF(zAp*AT.]1PcU&",
+                "hex": "366d765a29402a384d767349664e26285546287a41702a41542e5d3150635526",
+                "base32": "GZWXMWRJIAVDQTLWONEWMTRGFBKUMKD2IFYCUQKUFZOTCUDDKUTA",
+                "otpauth_url": "otpauth://totp/SecretKey?secret=GZWXMWRJIAVDQTLWONEWMTRGFBKUMKD2IFYCUQKUFZOTCUDDKUTA"
+            }
+        }
+    }
+}

@@ -14,11 +14,11 @@
 - Intro To JavaScript Unit Testing & BDD
 - Redux Crash Course
 - Vanilla Node.js REST API | No Framework
+- Two Factor Authentication | Node.js & Speakeasy
 
 # In Progress
 
 - DevOps Crash Course (Docker, Terraform, and Github Actions)
-
 
 # In Progress (GitIgnored)
 
