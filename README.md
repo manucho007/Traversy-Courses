@@ -18,8 +18,9 @@
 
 # In Progress
 
-- DevOps Crash Course (Docker, Terraform, and Github Actions)
+- Build a Wildfire Tracker With React & NASA API
 
 # In Progress (GitIgnored)
 
 - Exploring Docker
+- DevOps Crash Course (Docker, Terraform, and Github Actions)
