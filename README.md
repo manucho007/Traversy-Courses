@@ -17,9 +17,9 @@
 - Two Factor Authentication | Node.js & Speakeasy
 - Build a Wildfire Tracker With React & NASA API
 - MERN eCommerce From Scratch
+- React Breaking bad API
 # In Progress
 
-- React Breaking bad API
 
 # In Progress (GitIgnored)
 
