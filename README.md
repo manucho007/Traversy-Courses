@@ -18,6 +18,7 @@
 - Build a Wildfire Tracker With React & NASA API
 - MERN eCommerce From Scratch
 - React Breaking bad API
+- Jest Crash Course - Unit Testing in JavaScript
 # In Progress
 
 

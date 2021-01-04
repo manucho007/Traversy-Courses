@@ -1,0 +1,22 @@
+{
+  "name": "jest-testing-basics",
+  "version": "1.0.0",
+  "description": "Jest Intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "keywords": [
+    "Jest",
+    "Testing"
+  ],
+  "author": "Manuel Rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
