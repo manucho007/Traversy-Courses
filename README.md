@@ -15,10 +15,11 @@
 - Redux Crash Course
 - Vanilla Node.js REST API | No Framework
 - Two Factor Authentication | Node.js & Speakeasy
-
+- Build a Wildfire Tracker With React & NASA API
+- MERN eCommerce From Scratch
 # In Progress
 
-- Build a Wildfire Tracker With React & NASA API
+- React Breaking bad API
 
 # In Progress (GitIgnored)
 
