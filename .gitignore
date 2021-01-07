@@ -7,3 +7,6 @@ node_modules/
 .nyc_output/
 
 *.eslintcache
+
+# next.js build output
+.next

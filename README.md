@@ -19,6 +19,7 @@
 - MERN eCommerce From Scratch
 - React Breaking bad API
 - Jest Crash Course - Unit Testing in JavaScript
+- Next.js Crash Course - Server Side React (Bitzprice)
 # In Progress
 
 
