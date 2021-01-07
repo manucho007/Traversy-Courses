@@ -1,0 +1,14 @@
+{
+  "name": "chat-o-matic",
+  "version": "1.0.0",
+  "description": "Graphql and react",
+  "main": "server.js",
+  "author": "Manuel Rodriguez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
