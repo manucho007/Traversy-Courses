@@ -21,9 +21,9 @@
 - Jest Crash Course - Unit Testing in JavaScript
 - Next.js Crash Course - Server Side React (Bitzprice)
 - Realtime Chat App | React, GraphQL & Websockets (chat-o-matic)
-# In Progress
-
 - 
+# In Progress
+- Build an Expense Tracker | React Hooks & Context API
 # In Progress (GitIgnored)
 
 - Exploring Docker
