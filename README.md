@@ -22,6 +22,7 @@
 - Next.js Crash Course - Server Side React (Bitzprice)
 - Realtime Chat App | React, GraphQL & Websockets (chat-o-matic)
 - Build an Expense Tracker | React Hooks & Context API
+- Simple Frontend Pagination | React
 # In Progress
 - 
 # In Progress (GitIgnored)
