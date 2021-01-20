@@ -24,9 +24,9 @@
 - Build an Expense Tracker | React Hooks & Context API
 - Simple Frontend Pagination | React
 - OOP Crash course
+- Exploring Docker
 # In Progress
 - 
 # In Progress (GitIgnored)
 
-- Exploring Docker
 - DevOps Crash Course (Docker, Terraform, and Github Actions)
