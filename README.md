@@ -23,6 +23,7 @@
 - Realtime Chat App | React, GraphQL & Websockets (chat-o-matic)
 - Build an Expense Tracker | React Hooks & Context API
 - Simple Frontend Pagination | React
+- OOP Crash course
 # In Progress
 - 
 # In Progress (GitIgnored)
