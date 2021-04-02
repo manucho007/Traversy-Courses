@@ -1,0 +1,3 @@
+[submodule "devlogger"]
+	path = devlogger
+	url = ./devlogger

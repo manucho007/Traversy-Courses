@@ -26,6 +26,7 @@
 - OOP Crash course
 - Exploring Docker
 - React JS Crash Course 2021 (task-tracker)
+- DevLogger with Angular
 
 # In Progress
 - 
