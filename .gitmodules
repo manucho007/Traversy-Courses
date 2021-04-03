@@ -1,3 +1,6 @@
 [submodule "devlogger"]
 	path = devlogger
 	url = https://github.com/manucho007/devlogger
+[submodule "clientsPanel"]
+	path = clientsPanel
+	url = ./clientsPanel
