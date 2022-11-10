@@ -7,7 +7,7 @@
     "chai": "^4.2.0"
   },
   "devDependencies": {
-    "mocha": "^8.2.0",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0"
   },
   "scripts": {
